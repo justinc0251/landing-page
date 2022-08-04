@@ -31,3 +31,35 @@ a {
     text-decoration: none;
     color: rgb(180, 180, 180);
 }
+
+.text {
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    width: 300px;
+    color: white;
+}
+
+.subtext {
+    color: rgb(175, 175, 175);
+    font-family: 'Roboto', sans-serif;
+    width: 400px;
+}
+
+button {
+    padding: 8px 16px;
+    border-radius: 8px;
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+    font-weight: bold;
+    width: 90px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    padding: 80px 200px;
+    gap: 6px;
+}
