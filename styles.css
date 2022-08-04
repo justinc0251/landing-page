@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
 
 .header {
     background: #1F2937;
@@ -11,17 +15,12 @@
     padding-right: 105px;
     display: flex;
     justify-content: space-between;
+
 }
 
 .logo {
     font-weight: bold;
     font-size: 24px;
-}
-body {
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 50;
-
 }
 
 ul {
@@ -54,7 +53,7 @@ a {
     color: #c9c9c9;
 }
 
-button {
+.button1 {
     padding: 8px 16px;
     border-radius: 8px;
     background: royalblue;
@@ -129,23 +128,54 @@ button {
 .container3 {
     background: rgb(219, 219, 219);
     height: 300px;
-    margin-bottom: 80px;
+    margin-bottom: 90px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 20px;
 }
 
 .quote {
-    font-style: italic;
-    font-size: 23px;
+    font-style:italic;
+    font-size: 28px;
     padding: 0 310px;
-    color:rgb(73, 73, 73)
+    color:rgb(107, 107, 107);
+    width: 630px;
+
 }
 
 .author {
     font-size: 18px;
     font-weight: bold;
     color:rgb(0, 0, 0);
-    padding-left: 310px;
+    padding-left: 420px;
+}
+
+.text2 {
+    display: flex;
+    flex-direction: column;
+    background: rgb(62, 128, 252);
+    border-radius: 20px;
+    border: 3px solid #4e91e9;
+    width: 1000px;
+    height: 125px;
+    margin-left: 200px;
+    margin-right: 200px;
+
+}
+
+.call, .signup {
+    padding-left: 150px;
+}
+
+.call {
+    color: white;
+    padding-top: 40px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.signup {
+    color:rgb(202, 202, 202);
 }
