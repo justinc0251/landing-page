@@ -152,7 +152,7 @@ a {
     padding-left: 420px;
 }
 
-.text2 {
+.container4 {
     display: flex;
     flex-direction: column;
     background: rgb(62, 128, 252);
@@ -178,4 +178,14 @@ a {
 
 .signup {
     color:rgb(202, 202, 202);
+}
+
+.button2 {
+    padding: 8px 16px;
+    border-radius: 8px;
+    background: rgb(62, 128, 252);
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+    font-weight: bold;
+    width: 90px;
 }
