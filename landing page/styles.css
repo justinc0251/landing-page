@@ -44,7 +44,7 @@ ul {
     padding: 80px;
     align-items: center;
     justify-content: center;
-    gap: 40px;
+    gap: 60px;
 }
 
 .description h1 {
@@ -75,8 +75,6 @@ ul {
 .description {
     display: flex;
     flex-basis: 500px;
-    text-align: left;
-    margin-right: 30px;
     flex-direction: column;
     background-color: darkred;
     gap: 6px;
