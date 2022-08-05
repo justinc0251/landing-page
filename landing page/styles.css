@@ -6,7 +6,7 @@ body {
 }
 
 .header {
-    background: #1F2937;
+    background: darkred;
     color: white;
     height: 72px;
     display: flex;
@@ -56,8 +56,8 @@ a {
 .button1 {
     padding: 8px 16px;
     border-radius: 8px;
-    background: royalblue;
-    border: 1px solid royalblue;
+    background: rgb(255, 103, 103);
+    border: 1px solid rgb(255, 103, 103);
     color: white;
     font-weight: bold;
     width: 90px;
@@ -66,7 +66,7 @@ a {
 .description {
     display: flex;
     flex-direction: column;
-    background-color: #1F2937;
+    background-color: darkred;
     gap: 6px;
 }
 
@@ -82,7 +82,7 @@ a {
 }
 
 .container {
-    background-color: #1F2937;
+    background-color: darkred;
     display: flex;
     padding: 80px 0px;
     padding-left: 150px;
@@ -114,9 +114,15 @@ a {
 
 .box {
     border-radius: 20px;
-    border: 3px solid #2a7ae2;
+    border: 3px solid rgb(255, 103, 103);
     width: 150px;
     height: 150px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
 }
 
 .container2 {
@@ -172,7 +178,7 @@ a {
 
 .button2 {
     border-radius: 8px;
-    background: rgb(62, 128, 252);
+    background: rgb(255, 103, 103);
     border: 1px solid rgb(255, 255, 255);
     color: white;
     font-weight: bold;
@@ -186,9 +192,9 @@ a {
 
 .container5 {
     display: flex;
-    background: rgb(62, 128, 252);
+    background: rgb(255, 103, 103);
     border-radius: 20px;
-    border: 3px solid #4e91e9;
+    border: 3px solid rgb(255, 103, 103);
     width: 900px;
     height: 125px;
     margin-left: 250px;
@@ -197,7 +203,7 @@ a {
 }
 
 .footer {
-    background: #1F2937;
+    background: darkred;
     color: white;
     display:flex;
     justify-content: center;
