@@ -20,7 +20,7 @@ body {
 
 .logo {
     font-weight: bold;
-    font-size: 24px;
+    font-size: 50px;
 }
 
 ul {
@@ -70,15 +70,9 @@ a {
     gap: 6px;
 }
 
-.placeholder {
-    background-color: gray;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 200px;
-    width: 400px;
-    color:lightgray;
-    margin: 0;
+.placeholder img {
+    width:300px;
+    height: auto;
 }
 
 .container {
@@ -119,7 +113,7 @@ a {
     height: 150px;
 }
 
-img {
+.box img {
     width: 150px;
     height: 150px;
     border-radius: 15px;
@@ -195,11 +189,13 @@ img {
     background: rgb(255, 103, 103);
     border-radius: 20px;
     border: 3px solid rgb(255, 103, 103);
-    width: 900px;
+    width: 800px;
     height: 125px;
-    margin-left: 250px;
-    gap: 125px;
+    margin-left: 300px;
+    margin-right:300px;
+    gap: 70px;
     margin-bottom: 90px;
+    flex: 1;
 }
 
 .footer {
