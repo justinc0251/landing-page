@@ -2,6 +2,7 @@
 
 body {
     margin: 0;
+    padding: 0;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -11,14 +12,12 @@ body {
     height: 72px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding-left: 150px;
     padding-right: 105px;
-    display: flex;
-    justify-content: space-between;
-
 }
 
-.logo {
+.header .logo {
     font-weight: bold;
     font-size: 50px;
 }
@@ -32,28 +31,29 @@ ul {
     margin: 0;
 }
 
-a {
+.links a {
     text-decoration: none;
     color: rgb(180, 180, 180);
 }
 
-.text {
+.description h1 {
     font-weight:800;
     font-family: 'Roboto', sans-serif;
     font-size: 48px;
     width: 350px;
     color: #F9FAF8;
+    margin: 0;
 }
 
-.subtext {
-    color: rgb(175, 175, 175);
+.description p {
     font-family: 'Roboto', sans-serif;
     width: 450px;
     font-size: 18px;
     color: #c9c9c9;
+    margin: 0;
 }
 
-.button1 {
+.description .button {
     padding: 8px 16px;
     border-radius: 8px;
     background: rgb(255, 103, 103);
@@ -71,17 +71,20 @@ a {
 }
 
 .placeholder img {
-    width:300px;
-    height: auto;
+    width:400px;
+    height: 250px;
 }
 
-.container {
+.container-description {
     background-color: darkred;
     display: flex;
     padding: 80px 0px;
     padding-left: 150px;
+    text-align: left;
     gap: 40px;
 }
+
+/* Information */
 
 .information {
     font-weight: 800;
