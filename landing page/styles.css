@@ -103,7 +103,7 @@ a {
 .boxtext {
     width: 150px;
     display: flex;
-    color: rgb(87, 87, 87)
+    color: rgb(87, 87, 87);
 }
 
 .box {
