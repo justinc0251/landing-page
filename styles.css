@@ -155,18 +155,8 @@ a {
 .container4 {
     display: flex;
     flex-direction: column;
-    background: rgb(62, 128, 252);
-    border-radius: 20px;
-    border: 3px solid #4e91e9;
-    width: 1000px;
-    height: 125px;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 100px;
 
-}
-
-.call, .signup {
-    padding-left: 150px;
 }
 
 .call {
@@ -181,11 +171,27 @@ a {
 }
 
 .button2 {
-    padding: 8px 16px;
     border-radius: 8px;
     background: rgb(62, 128, 252);
     border: 1px solid rgb(255, 255, 255);
     color: white;
     font-weight: bold;
     width: 90px;
+    height: 40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.container5 {
+    display: flex;
+    background: rgb(62, 128, 252);
+    border-radius: 20px;
+    border: 3px solid #4e91e9;
+    width: 900px;
+    height: 125px;
+    margin-left: 250px;
+    gap: 125px;
+    margin-bottom: 90px;
 }
