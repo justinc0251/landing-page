@@ -36,18 +36,27 @@ ul {
     color: rgb(180, 180, 180);
 }
 
+/* Description */
+
+.container-description {
+    background-color: darkred;
+    display: flex;
+    padding: 80px;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
 .description h1 {
     font-weight:800;
     font-family: 'Roboto', sans-serif;
     font-size: 48px;
-    width: 350px;
     color: #F9FAF8;
     margin: 0;
 }
 
 .description p {
     font-family: 'Roboto', sans-serif;
-    width: 450px;
     font-size: 18px;
     color: #c9c9c9;
     margin: 0;
@@ -65,6 +74,9 @@ ul {
 
 .description {
     display: flex;
+    flex-basis: 500px;
+    text-align: left;
+    margin-right: 30px;
     flex-direction: column;
     background-color: darkred;
     gap: 6px;
@@ -75,16 +87,8 @@ ul {
     height: 250px;
 }
 
-.container-description {
-    background-color: darkred;
-    display: flex;
-    padding: 80px 0px;
-    padding-left: 150px;
-    text-align: left;
-    gap: 40px;
-}
 
-/* Information */
+/* Information and Pictures*/
 
 .information {
     font-weight: 800;
