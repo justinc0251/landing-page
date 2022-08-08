@@ -12,16 +12,14 @@ body {
     height: 72px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding-left: 150px;
     padding-right: 105px;
-    display: flex;
-    justify-content: space-between;
-
 }
 
-.logo {
+.header .logo {
     font-weight: bold;
-    font-size: 24px;
+    font-size: 50px;
 }
 
 ul {
@@ -33,28 +31,37 @@ ul {
     margin: 0;
 }
 
-a {
+.links a {
     text-decoration: none;
     color: rgb(180, 180, 180);
 }
 
-.description .text {
-    font-weight:800;
-    font-family: 'Roboto', sans-serif;
-    font-size: 48px;
-    width: 350px;
-    color: #F9FAF8;
+/* Description */
+
+.container-description {
+    background-color: #1F2937;
+    display: flex;
+    padding: 80px;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
 }
 
-.subtext {
-    color: rgb(175, 175, 175);
+h1 {
+    font-size: 48px;
     font-family: 'Roboto', sans-serif;
-    width: 450px;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.description p {
+    font-family: 'Roboto', sans-serif;
     font-size: 18px;
     color: #c9c9c9;
+    margin: 0;
 }
 
-.button1 {
+.description .button {
     padding: 8px 16px;
     border-radius: 8px;
     background: royalblue;
@@ -66,6 +73,7 @@ a {
 
 .description {
     display: flex;
+    flex-basis: 500px;
     flex-direction: column;
     background-color: #1F2937;
     gap: 6px;
@@ -82,51 +90,52 @@ a {
     margin: 0;
 }
 
-.container {
-    background-color: #1F2937;
-    display: flex;
-    padding: 80px 0px;
-    padding-left: 150px;
-    gap: 40px;
-}
 
-.information {
-    font-weight: 800;
-    font-size: 36px;
+/* Information and Pictures*/
+
+.container-info {
     display: flex;
+    align-items: center;
     justify-content: center;
-    margin-top: 40px;
+    margin: 20px 0 80px 0;
+    flex-wrap:wrap;
+
 }
 
-.boxes {
-    display: flex;
-    text-align: center;
-    margin-top: 30px;
-    justify-content: center;
-    gap: 30px;
-    margin-bottom: 90px;
-}
-
-.boxtext {
-    width: 150px;
-    display: flex;
-    color: rgb(87, 87, 87)
-}
-
-.box {
-    border-radius: 20px;
-    border: 3px solid #2a7ae2;
+.info {
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
     width: 150px;
     height: 150px;
+    border: 3px solid rgb(62, 128, 252);
+    border-radius: 15px;
+    margin: 0 20px 0 20px;
 }
 
-.container2 {
+.info .text{
+    margin-top: 220px;
+}
+
+
+h2 {
+    font-size: 36px;
+    margin: 50px 0 0 0;
     display:flex;
-    flex-direction: column;
-    gap: 10px;
+    justify-content: center;
+
 }
 
-.container3 {
+.info .text {
+    color: rgb(87, 87, 87);
+    width: 150px;
+    text-align: center;
+}
+
+
+/* Quote */
+
+.quote-container {
     background: rgb(219, 219, 219);
     height: 300px;
     margin-bottom: 90px;
@@ -134,10 +143,9 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 20px;
 }
 
-.quote {
+h3 {
     font-style:italic;
     font-size: 28px;
     padding: 0 310px;
@@ -146,56 +154,49 @@ a {
 
 }
 
-.author {
+.quote-container p {
     font-size: 18px;
     font-weight: bold;
     color:rgb(0, 0, 0);
     padding-left: 420px;
 }
 
-.container4 {
-    display: flex;
-    flex-direction: column;
-    margin-left: 100px;
+/* Call to Action */
 
+.signup-container {
+    background-color: rgb(62, 128, 252);
+    border-radius: 20px;
+    border: 3px solid rgb(62, 128, 252);
+    margin: 50px 225px;
+    padding: 10px 80px;
+    display: flex;
+    align-items: center;
+    gap: 60px;
 }
 
-.call {
+h4 {
     color: white;
-    padding-top: 40px;
     font-weight: bold;
     font-size: 20px;
+    margin: 30px 0 0 50px;
 }
 
-.signup {
+.signup p {
     color:rgb(202, 202, 202);
+    margin: 0;
+    margin: 5px 25px 25px 50px;
 }
 
-.button2 {
+.signup-container .button {
+    color: #fff;
+    border: 1px solid white;
     border-radius: 8px;
     background: rgb(62, 128, 252);
-    border: 1px solid rgb(255, 255, 255);
-    color: white;
-    font-weight: bold;
-    width: 90px;
-    height: 40px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 40px;
+    padding: 8px 16px;
 }
 
-.container5 {
-    display: flex;
-    background: rgb(62, 128, 252);
-    border-radius: 20px;
-    border: 3px solid #4e91e9;
-    width: 900px;
-    height: 125px;
-    margin-left: 250px;
-    gap: 125px;
-    margin-bottom: 90px;
-}
+
+/* Footer */
 
 .footer {
     background: #1F2937;
@@ -203,5 +204,5 @@ a {
     display:flex;
     justify-content: center;
     align-items: center;
-    height: 125px;
+    height: 100px;
 }
