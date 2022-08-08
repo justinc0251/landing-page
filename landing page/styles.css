@@ -158,51 +158,38 @@ h3 {
 
 /* Call to Action */
 
-.container4 {
-    display: flex;
-    flex-direction: column;
-    margin-left: 100px;
-
-}
-
-.call {
-    color: white;
-    padding-top: 40px;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.signup {
-    color:rgb(202, 202, 202);
-}
-
-.button2 {
-    border-radius: 8px;
-    background: rgb(255, 103, 103);
-    border: 1px solid rgb(255, 255, 255);
-    color: white;
-    font-weight: bold;
-    width: 90px;
-    height: 40px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 40px;
-}
-
 .signup-container {
-    display: flex;
-    background: rgb(255, 103, 103);
+    background-color: rgb(255, 103, 103);
     border-radius: 20px;
     border: 3px solid rgb(255, 103, 103);
-    width: 800px;
-    height: 125px;
-    margin-left: 300px;
-    margin-right:300px;
-    gap: 70px;
-    margin-bottom: 90px;
-    flex: 1;
+    margin: 50px 225px;
+    padding: 10px 80px;
+    display: flex;
+    align-items: center;
+    gap: 60px;
 }
+
+h4 {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 30px 0 0 50px;
+}
+
+.signup p {
+    color:rgb(202, 202, 202);
+    margin: 0;
+    margin: 5px 25px 25px 50px;
+}
+
+.signup-container .button {
+    color: #fff;
+    border: 1px solid white;
+    border-radius: 8px;
+    background: rgb(255, 103, 103);
+    padding: 8px 16px;
+}
+
 
 /* Footer */
 
