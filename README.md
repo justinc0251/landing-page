@@ -1,1 +1,1 @@
-# Landing page for advertising famous places in Japan
+# Landing page to advertise famous places in Japan
